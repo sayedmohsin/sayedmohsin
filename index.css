@@ -1,0 +1,173 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  
+}
+
+.upper-container{
+    
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.upper-container2{
+    width:30%;
+    height:100%;
+    padding-top:20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#add-list{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 25px;
+}
+
+.card-container{
+       display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.card1{
+
+    margin-top: 10px;
+    border:1.5px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+.div1{  
+    
+    position: absolute;
+    top:15px;
+    right:0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;;
+    color: darkred;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color:deepskyblue;
+    text-align: right;
+    position: absolute;
+    top : 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+#check{
+    
+    width:20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+.notshow{
+
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 25vh;
+    width:27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color:red;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: white;
+    padding: 20px;
+}
+
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.popup-bar{
+
+     margin-top: 20px;
+     border-radius: 4px;
+     width: 85%;
+     height: 27%;
+     border:1.5px solid red;
+     box-shadow: 1px 1px 3px grey;
+}
+
+.popup-button{
+
+    width:25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border:none;
+    position: absolute;
+    left: 130px;
+    font-size: 20px;
+}
+
+.slide-buttons{
+    margin-top: 50px;
+    opacity: 0.7;
+    font-size: 17px;
+}
